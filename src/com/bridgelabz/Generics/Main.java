@@ -3,12 +3,12 @@ package com.bridgelabz.Generics;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to check Maximum of three variables");
-		String x = "Sachin", y = "Mohit", z = "Akshay";
-		Integer a = 30, b = 15, c = 55;
-		Float p = 6.23f, q = 3.2f, r = 0.2f;
-		TestMaximum.testMaximum(x, y, z);
-		TestMaximum.testMaximum(a, b, c);
-		TestMaximum.testMaximum(p, q, r);
+		System.out.println("Welcome to Check maximum of three variables");
+		String x = "Sachin", y = "Harshal", z = "Amit";
+		Integer a = 20, b = 35, c = 15;
+		Float p = 6.23f, q = 2.2f, r = 5.2f;
+		TestMaximum.<String>testMaximum(x, y, z);
+		TestMaximum.<Integer>testMaximum(a, b, c);
+		TestMaximum.<Float>testMaximum(p, q, r);
 	}
 }

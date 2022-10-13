@@ -1,9 +1,9 @@
 package com.bridgelabz.Generics;
 
 public class TestMaximum<T extends Comparable<T>> {
-	T x, y, z;
+	private T x, y, z;
 
-//constructor test maximum
+//constructor
 	public TestMaximum(T x, T y, T z) {
 		this.x = x;
 		this.y = y;
@@ -23,6 +23,6 @@ public class TestMaximum<T extends Comparable<T>> {
 	}
 
 	public static <T> void printMax(T x, T y, T z, T max) {
-		System.out.printf("the Max of following variables %s , %s and %s is %s\n", x, y, z, max);
+		System.out.printf("the Max of the following %s , %s and %s is %s\n", x, y, z, max);
 	}
 }
